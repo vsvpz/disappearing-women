@@ -1,0 +1,411 @@
+body{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: VTF Victorianna;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #000000;
+    }
+
+h2{
+    font-family: VTF Victorianna;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #000000;
+    display: inline-block;
+    text-align: right;
+}
+
+.image-text{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.image-text img{
+    width: 25em;
+}
+
+.image-text p {
+    display: inline-block;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #235D83;
+    
+}
+
+.images p{
+    font-family: Futura;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    color: #FFFFFF;
+    height: 15em;
+    width: 15em;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+.images p:hover{
+    background-color: black;
+    opacity: .6;
+    transition-duration: .5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    justify-items: center;
+    row-gap: 3em;
+    column-gap: 3em;
+}
+
+.images div{
+    height: 15em;
+    width: 15em;
+}
+
+.aya-hachem{
+    background-image: url(assets/aya-hachem.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.kelly-stewart{
+    background-image: url(assets/kelly-stewart.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.betty-dobbin{
+    background-image: url(assets/betty-dobbin.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.kelly-fitz{
+    background-image: url(assets/kelly-fitz.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.zobaidah-salangy{
+    background-image: url(assets/zobaidah-salangy.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.walker-ck{
+    background-image: url(assets/walker-ck.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.charlotte-huggins{
+    background-image: url(assets/charlotte-huggins.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.shadika-mohsin-patel{
+    background-image: url(assets/shadika-mohsin-patel.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.tracey-kidd{
+    background-image: url(assets/tracey-kidd.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.nelly-moustafa{
+    background-image: url(assets/nelly-moustafa.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.maureen-kidd{
+    background-image: url(assets/image-asset.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.wendy-morse{
+    background-image: url(assets/wendy-morse.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.josephine-kaye{
+    background-image: url(assets/josephine-kaye.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.najeeba-al{
+    background-image: url(assets/najeeba-al.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.elsie-smith{
+    background-image: url(assets/elsie-smith.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.ruth-williams{
+    background-image: url(assets/ruth-williams.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.ruth-brown{
+    background-image: url(assets/ruth-brown.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.denise-keane{
+    background-image: url(assets/denise-keane.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.jadwiga-szczgielska{
+    background-image: url(assets/jadwiga-szczgielska.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.emma-jane{
+    background-image: url(assets/emma-jane.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.louise-aitchinson{
+    background-image: url(assets/louise-aitchinson.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.silke-hartshorne{
+    background-image: url(assets/silke-hartshorne.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.hyacinth-morris{
+    background-image: url(assets/hyacinth-morris.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.louise-smith{
+    background-image: url(assets/louise-smith.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.melissa-belshaw{
+    background-image: url(assets/melissa-belshaw.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.victoria-woodhall{
+    background-image: url(assets/victoria-woodhall.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.yvonne-lawson{
+    background-image: url(assets/yvonne-lawson.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.zdun{
+    background-image: url(assets/zdun.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.mandy-houghton{
+    background-image: url(assets/mandy-houghton.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.amy-leanne{
+    background-image: url(assets/amy-leanne.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.bibaa-henry{
+    background-image: url(assets/bibaa-henry.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.nicole-smallman{
+    background-image: url(assets/nicole-smallman.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.dawn-bennett{
+    background-image: url(assets/dawn-bennett.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.gemma-marjoram{
+    background-image: url(assets/gemma-marjoram.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.karolina-zinkeviciene{
+    background-image: url(assets/karolina-zinkeviciene.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.rosemary-hill{
+    background-image: url(assets/rosemary-hill.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.jackie-hoadley{
+    background-image: url(assets/jackie-hoadley.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.khloemae-loy{
+    background-image: url(assets/khloemae-loy.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.kerry-woolley{
+    background-image: url(assets/kerry-woolley.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;
+}
+
+.shelly-clark{
+    background-image: url(assets/shelly-clark.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.bernadette-walker{
+    background-image: url(assets/bernadette-walker.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.stella-frew{
+    background-image: url(assets/stella-frew.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.dawn-fletcher{
+    background-image: url(assets/dawn-fletcher.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.deborah-jones{
+    background-image: url(assets/deborah-jones.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none; 
+}
+
+.patrycja-wyrebek{
+    background-image: url(assets/patrycja-wyrebek.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;   
+}
+
+.therasia-gordon{
+    background-image: url(assets/therasia-gordon.jpeg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: none;  
+}
