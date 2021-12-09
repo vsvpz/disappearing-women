@@ -2,7 +2,6 @@ body{
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
 }
 
 h1{
@@ -21,10 +20,11 @@ h2{
     font-size: 2.5em;
     line-height: 48px;
     color: #FFFFFF;
-    text-shadow: 1px 1px 0px #000000;
-    display: inline-block;
-
+    position: fixed;
+    right: 3em;
+    top: 4em;
     text-align: right;
+    text-shadow: 1px 1px 0px #000000;
 }
 
 .image-text{
