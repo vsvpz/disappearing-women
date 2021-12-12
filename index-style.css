@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "VTF Victorianna";
+    src: url("./fonts/vtf_victorianna_thin-webfont.woff") format("woff"),
+  } 
+  
+
 body{
     background-color: black;
 }
@@ -16,7 +22,7 @@ body{
 }
 
 h1{
-    font-family: VTF Victorianna;
+    font-family: 'VTF Victorianna';
     font-style: normal;
     font-weight: 300;
     font-size: 10em;
