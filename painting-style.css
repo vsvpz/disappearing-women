@@ -8,6 +8,10 @@ h1{
     margin: 0;
     }
 
+    .image{
+        text-align: left;
+    }
+
     .name{
         display: block;
     z-index: 30;
@@ -55,11 +59,28 @@ position: relative;
         top:20em;
     }
 
+    .back{
+        padding: 1em;
+    }
+
+    .back a{
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1em;
+        color: #235D83;  
+        text-decoration: none;
+    }
+
+    .back a:hover{
+        color: black;
+    }
+
     @media screen and (max-width:75em){
 
         h1{
             font-size: 3em;
-            text-shadow: 1px 4px 0px #000000;
+            text-shadow: 1px 1px 0px #000000;
             }
         
             .name{
@@ -67,44 +88,28 @@ position: relative;
             width: 50%;
             }
         
-            .content{
-                width: 70%;
-                margin: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-        
-            .content img{
-        position: relative;
-                width: 70%;
-                z-index: 2;
-            }
-        
-            .text p{
-                display: inline-block;
-            font-family: Futura;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 1em;
-            color: #235D83;  
-            margin-right: 1em;
-            }
-        
-            a{
-                color: #235D83;
-            }
-        
-            a:hover{
-                color: black;
+            .image{
+                text-align: center;
             }
         
             .text {
-                width:30%;
-                position: absolute;
-                right: 3%;
-                top:20em;
+                position: relative;
+                width: 70%;
+                margin: auto;
+                right: auto;
+                top:auto;
             }
+
+        
+    }
+
+    @media screen and (max-width:55em){
+        
+            .text {
+                position: relative;
+                width: 90%;
+                margin: auto;
+            }
+
         
     }
