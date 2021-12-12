@@ -102,6 +102,10 @@ img{
         height: 50%;
     }
 
+    .text{
+        top: 1em;
+    }
+
     h2{
         margin-left: 4.5em;
         margin-top: 20em;
@@ -109,8 +113,8 @@ img{
 
     img{
     left: 6.5em;
-    top: 17em;
-    z-index: 10;
+    top: 12em;
+    z-index: 13;
     width: 25em;    
     }
 
