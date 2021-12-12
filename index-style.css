@@ -99,6 +99,7 @@ img{
         left: 8em;
         top: 6em;
         z-index: 5;
+        height: 50%;
     }
 
     h2{
@@ -109,8 +110,12 @@ img{
     img{
     left: 6.5em;
     top: 17em;
-    z-index: 2;
+    z-index: 10;
     width: 25em;    
+    }
+
+    a{
+        width: 100%;
     }
 
 }
