@@ -4,6 +4,65 @@ body{
     margin-right: auto;
 }
 
+a{
+    color: #235D83;
+}
+
+a:hover{
+    color: black;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10em; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.4); /* Black w/ opacity */
+    z-index: 1000;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #235D83;
+    border-radius: 10px;
+    background-color: white;
+    width: 45em;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #235D83;
+  }
+  
+  .modal-content p{
+    margin: 2em;
+  }
+
+/* The Close Button */
+.close {
+  color: #235D83;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: url("assets/collage-logo-type-cursor.png"), auto;
+}
+
+
 h1{
     font-family: VTF Victorianna;
     font-style: normal;
@@ -13,19 +72,24 @@ h1{
     text-shadow: 1px 1px 0px #000000;
     }
 
-h2{
+button p{
     font-family: VTF Victorianna;
     font-style: normal;
     font-weight: 300;
     font-size: 2em;
     line-height: 48px;
     color: #FFFFFF;
-    position: absolute;
-    right: 13%;
-    top: 0;
     text-align: right;
     text-shadow: 1px 1px 0px #000000;
     background-color: transparent;
+}
+
+button{
+    background-color: transparent;
+    position: absolute;
+    right: 13%;
+    top: 0;
+    border: transparent;
 }
 
 .image-text{
@@ -423,6 +487,11 @@ a{
 }
 
 @media screen and (max-width: 55em){
+    .modal-content{
+        max-width: 25em;
+        font-size: .75em;
+    }
+
     .images{
         grid-template-columns: 1fr; 
     }
@@ -440,7 +509,7 @@ a{
         font-size: 2em;
         }
     
-    h2{
+        button p{
         font-size: 1.5em;
         top: 2.4em;
     }
